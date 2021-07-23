@@ -17,13 +17,16 @@
 <body>
     <header>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #e3f2fd;">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-between" style="background-color: #e3f2fd;">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo.jpg" width="50" height="50" class="d-inline-block align-top rounded-circle" alt="">
+                StudyFun
+              </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse bg-primary" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -46,11 +49,14 @@
                   <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
               </ul>
-              <div class="">
-                  <h4>Login</h4>
-                  
-              </div>
             </div>
+
+            <a href="#" class="text-decoration-none">
+                <div class="d-flex align-items-center bg-warning rounded">
+                    <h5>Login</h5>
+                    <i class="fas fa-sign-in-alt"></i> 
+                </div>
+            </a>
           </nav>
          
         <!-- Carousel Of Content -->
