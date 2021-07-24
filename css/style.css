@@ -1,3 +1,13 @@
+.course-grid .grid-title {
+  visibility: hidden;
+}
+
+.course-grid:hover .grid-title {
+  visibility: visible;
+  transform: translate(45%);
+  transition: transform 3s ease;
+}
+
 .image-caps:hover {
   transform: scale(1.3);
   transition: transform 3s ease;
